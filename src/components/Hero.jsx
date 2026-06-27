@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-950 text-white pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-white pt-20 transition-colors duration-300">
       {/* Background Gradient */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-600/30 blur-[120px]" />
-        <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-600/30 blur-[120px]" />
+        <div className="absolute top-[-20%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-200/50 dark:bg-blue-600/30 blur-[120px]" />
+        <div className="absolute bottom-[-20%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-200/50 dark:bg-purple-600/30 blur-[120px]" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10 flex flex-col items-center text-center">
@@ -20,11 +20,11 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-4xl"
         >
-          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-slate-400">
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-slate-900 via-slate-700 to-slate-500 dark:from-white dark:via-slate-200 dark:to-slate-400">
             Digital Product Studio <br className="hidden md:block" />
             For <span className="text-blue-500">Modern Brands</span>
           </h1>
-          <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+          <p className="text-lg md:text-xl text-slate-600 dark:text-slate-300 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
             We partner with fast-growing startups and enterprises to design and build world-class web applications, mobile apps, and digital platforms.
           </p>
 
@@ -46,7 +46,7 @@ export default function Hero() {
             
             <Link 
               href="#portfolio"
-              className="inline-flex items-center justify-center px-8 py-4 font-semibold text-white transition-all duration-300 border border-slate-700 rounded-full hover:bg-slate-800"
+              className="inline-flex items-center justify-center px-8 py-4 font-semibold text-slate-900 dark:text-white transition-all duration-300 border border-slate-300 dark:border-slate-700 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800"
             >
               View Our Work
             </Link>
