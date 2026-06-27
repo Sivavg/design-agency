@@ -36,9 +36,9 @@ const projects = [
   },
   {
     id: 6,
-    title: "TechCorp SaaS",
-    category: "Dashboard Design",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+    title: "Prism AI Analytics",
+    category: "B2B SaaS",
+    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
@@ -48,7 +48,7 @@ export default function Portfolio() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
-            <motion.h2 
+            <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -56,7 +56,7 @@ export default function Portfolio() {
             >
               Selected Work
             </motion.h2>
-            <motion.p 
+            <motion.p
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -78,15 +78,15 @@ export default function Portfolio() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative overflow-hidden rounded-2xl cursor-pointer aspect-[4/3]"
             >
-              <Image 
-                src={project.image} 
+              <Image
+                src={project.image}
                 alt={project.title}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover transition-transform duration-700 group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              
+
               <div className="absolute inset-0 p-6 flex flex-col justify-end translate-y-8 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                 <p className="text-blue-400 font-medium mb-1">{project.category}</p>
                 <h3 className="text-2xl font-bold text-white">{project.title}</h3>
