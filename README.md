@@ -4,7 +4,7 @@ A modern, responsive, and animated Design Agency Homepage built with Next.js App
 
 ## 🚀 Live Demo & Repository
 - **GitHub Repository:** https://github.com/Sivavg/design-agency
-- **Live Deployment (Vercel):** https://weboinagency.netlify.app/
+- **Live Deployment (Netlify):** https://weboinagency.netlify.app/
 
 ## 🛠️ Tech Stack Used
 - **Framework:** [Next.js 15](https://nextjs.org/) (App Router, React 19)
