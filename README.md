@@ -1,4 +1,4 @@
-# NexGen Design Agency - Frontend Task
+# Weboin Agency - Frontend Task
 
 A modern, responsive, and animated Design Agency Homepage built with Next.js App Router as a task-based evaluation for the Frontend Developer position.
 
@@ -12,7 +12,7 @@ A modern, responsive, and animated Design Agency Homepage built with Next.js App
 - **Animations:** [Framer Motion](https://www.framer.com/motion/)
 - **Icons:** [Lucide React](https://lucide.dev/)
 - **Language:** JavaScript (JSX)
-- **Deployment:** Recommended on Vercel
+- **Deployment:** Deployment on Netlify
 
 ## ✨ Features Implemented
 1. **Hero Section:** Engaging headline with animated staggered entry, dual CTA buttons, and a dynamic gradient background.
@@ -69,7 +69,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ---
 
-*Thank you for reviewing my submission. I look forward to the technical discussion!*
 
 Author : Siva
 
